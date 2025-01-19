@@ -1,9 +1,0 @@
-# workflows
-.github/workflows/*
-
-# main
-src/*
-!src/vite-env.d.ts
-
-# misc
-README.md
