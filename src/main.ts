@@ -5,7 +5,7 @@ new p5((p: p5) => {
   p.preload = () => {};
 
   p.setup = () => {
-    p.createCanvas(500, 500);
+    p.createCanvas(window.innerWidth * 0.8, window.innerHeight * 0.8);
     p.fill(0);
     p.stroke(255);
     p.strokeWeight(2);
